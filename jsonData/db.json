@@ -1,0 +1,34 @@
+{
+  "formData": [
+    {
+      "id": "1",
+      "username": "ThiruMurugan",
+      "email": "727722eucs191@skcet.ac.in",
+      "password": "Thiru@123"
+    },
+    {
+      "id": "2",
+      "username": "Harish",
+      "email": "727722eucs191@skcet.ac.in",
+      "password": "Harish@123"
+    },
+    {
+      "id": 3,
+      "username": "Sujan",
+      "email": "Sujan@gmail.com",
+      "password": "Sujan@123"
+    },
+    {
+      "id": 4,
+      "username": "harish@gmail.com",
+      "email": "727722eucs191@skcet.ac.in",
+      "password": "Harish@123"
+    },
+    {
+      "id": 5,
+      "username": "harish",
+      "email": "thiru@gmail.in",
+      "password": "Harish@123"
+    }
+  ]
+}
