@@ -1,0 +1,74 @@
+.register
+{
+    height:100vh;
+    width:100%;
+    background-color: aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    background-image: url("../../Assests/Regi.webp");
+    background-size: 100%;
+   h1{
+ color:white;
+   }
+.container
+{
+   width:500px;
+   min-height:600px;
+   height:auto;
+   max-height:800px;
+   border-radius:20px;
+   text-align:center;
+   border:1px solid white;
+backdrop-filter:blur(10px);
+   box-shadow:-8px -8px 15px black,8px 8px 15px black;
+}.input-container {
+    margin-top: 30px;
+    width: 25rem;
+    margin-left: 55px;
+    color: brown;
+    backdrop-filter: blur(5px);
+}
+.input {
+    border-radius: 5px;
+    width: 25rem;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.btn
+{
+    width:70%;
+    border-radius:15px;
+    font-weight:500;
+    &:hover{
+
+        box-shadow:8px 8px 15px white;
+    }
+}
+span{
+    color:brown;
+    font-size:16px;
+}
+.link
+{
+    text-decoration:none;
+    cursor:pointer;
+    color:blue;
+    &:hover{
+        text-decoration:solid;
+    }
+}
+.danger
+{
+    color:crimson;
+    font-family: sans-serif;
+    z-index:2;
+    font-weight:600;
+}
+   .icon 
+   {
+    color:white;
+   }
+}

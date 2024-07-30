@@ -1,0 +1,52 @@
+.footer {
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top:600px;
+  width:100vw;
+  height:300px;
+
+}
+
+.footer h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.footer h1 span {
+  color: #00ADB5;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.list div {
+  flex: 1;
+  min-width: 150px;
+}
+
+.list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list ul li {
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.list ul li:hover {
+  color: #00ADB5;
+  cursor: pointer;
+}
+
+marquee {
+  color: #aaa;
+  font-size: 0.8rem;
+}

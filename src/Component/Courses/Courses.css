@@ -1,0 +1,108 @@
+.header {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title h1 {
+    margin: 0;
+    padding-right: 25px;
+    padding-left: 35px;
+    color: #333;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 600px;
+  }
+  
+  .search-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .search-container input {
+    width: 100%;
+    height: 40px;
+    padding: 0 20px 0 40px; /* Adjust padding to accommodate the icon */
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .search-container input:focus {
+    border-color: #666;
+  }
+  
+  .filter {
+    display: flex;
+    align-items: center;
+    margin-right:30px;
+  }
+  
+  .filter-icon {
+    margin-right: 10px;
+    color: #888;
+  }
+  
+  .filter select {
+    width: 150px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .filter select:focus {
+    border-color: #666;
+  }
+  .course-body {
+    padding-top: 50px;
+    width: 100%;
+    height:800px;
+    background-color: aliceblue;
+}
+
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    max-width: calc(33.333% - 20px);
+}
+
+.course-card h2 {
+    margin-top: 0;
+}
+
+.course-card p {
+    margin: 5px 0;
+}
