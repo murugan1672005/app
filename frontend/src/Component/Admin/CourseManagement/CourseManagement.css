@@ -1,0 +1,140 @@
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .title{
+    text-align: center;
+  }
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1100;
+    max-width: 600px;
+    width: 100%;
+    animation: slideIn 0.3s ease-in-out;
+  }
+  .table-head{
+    background-color:rgba(0,0,0,0.5) !important;
+    color:white !important;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .add-course-form h3,
+  .edit-course-form h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 20px;
+  }
+  
+  .add-course-form .MuiTextField-root,
+  .edit-course-form .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .add-course-form .MuiButton-root,
+  .edit-course-form .MuiButton-root {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+  }
+  
+  .add-course-form .MuiButton-containedPrimary,
+  .edit-course-form .MuiButton-containedPrimary {
+    background-color: #1976d2;
+  }
+  
+  .add-course-form .MuiButton-outlinedSecondary,
+  .edit-course-form .MuiButton-outlinedSecondary {
+    color: #1976d2;
+    border-color: #1976d2;
+  }
+  
+  .add-course-form .MuiButton-containedPrimary:hover,
+  .edit-course-form .MuiButton-containedPrimary:hover {
+    background-color: #115293;
+  }
+  
+  .add-course-form .MuiButton-outlinedSecondary:hover,
+  .edit-course-form .MuiButton-outlinedSecondary:hover {
+    background-color: rgba(25, 118, 210, 0.1);
+  }
+  
+  /* Close button */
+  .modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1200;
+  }
+  
+  .modal-close-button:hover {
+    color: #d32f2f;
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .modal-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .modal-content {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .modal-content {
+    scrollbar-color: transparent transparent;
+  }
+  

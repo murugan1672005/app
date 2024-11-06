@@ -1,0 +1,38 @@
+.add-user-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+   
+  }
+  h1{
+    text-align: center;
+  }
+  .add-user-form {
+    padding: 16px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+  }
+  
+  .table-container {
+    margin-top: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    width:100%;
+  }
+  
+  .table-head {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .table{
+    width:100%;
+    
+  }
+  .logout-button {
+    margin-top: 16px;
+  }
+  

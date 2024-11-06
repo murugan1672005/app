@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "ThiruMurugan",
+      "email": "Thiru@gmail.com",
+      "password": "Thiru@123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "Sujan",
+      "email": "Sujan@gmail.com",
+      "password": "Sujan@123",
+      "role": "admin"
+    },
+    {
+      "id": "3",
+      "username": "Sanjay",
+      "email": "Sanjay@gmail.com",
+      "password": "Sanjay@123",
+      "role": "admin"
+    },
+    {
+      "id": "4",
+      "username": "ZexanAli",
+      "email": "Zexan@gmail.com",
+      "password": "Zexan@123",
+      "role": "user"
+    },
+    {
+      "id": "5",
+      "username": "VinayVarma",
+      "email": "Vinay@gmail.com",
+      "password": "Vinay@123",
+      "role": "user"
+    },
+    {
+      "id": "6",
+      "username": "Hariharan",
+      "email": "Hariharan@gmail.com",
+      "password": "Hariharan@123",
+      "role": "user"
+    },
+    {
+      "id": 7,
+      "username": "Subash",
+      "email": "Subash@gmail.com",
+      "password": "Subash@123",
+      "role": "user"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "Chemistry 101",
+      "instructor": "Dr. Marie Curie"
+    },
+    {
+      "id": "2",
+      "name": "Chemistry 101",
+      "instructor": "Dr. Marie Curie"
+    },
+    {
+      "id": "3",
+      "name": "Chemistry 101",
+      "instructor": "Dr. Marie Curie"
+    }
+  ]
+}
