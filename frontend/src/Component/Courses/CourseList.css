@@ -1,0 +1,79 @@
+/* Course List Container */
+.course-list {
+    margin: 2rem auto; /* Centered horizontally */
+    padding: 1rem;
+    min-width: 100vw;
+    max-width: 1200px; /* Constrain width for a more focused view */
+    background-color: #f5f5f5; /* Light gray background for contrast */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  }
+  
+  /* Card Item Styling */
+  .card-item {
+    margin-bottom: 1.5rem; /* Spacing between cards */
+    position: relative;
+  }
+  
+  /* Course Card Styling */
+  .course-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    background-color: #ffffff; /* White background for the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle initial shadow */
+  }
+  
+  /* Hover Effects for Course Card */
+  .course-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    transform: scale(1.02); /* Slightly scale up on hover */
+  }
+  
+  /* Card Media (Image) Styling */
+  .card-media {
+    height: 180px; /* Fixed height for images */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+  }
+  
+  /* Card Content Styling */
+  .card-content {
+    padding: 1rem;
+    background-color: #ffffff; /* Consistent white background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Typography Styling within Card Content */
+  .card-content .MuiTypography-h6 {
+    font-weight: 700; /* Bold for the title */
+    font-size: 1.25rem; /* Slightly larger font size for the title */
+    color: #333333; /* Dark text color for readability */
+    margin-bottom: 0.5rem; /* Space below title */
+  }
+  
+  .card-content .MuiTypography-body2 {
+    color: #555555; /* Dark gray text color for body */
+    font-size: 0.875rem; /* Smaller font size for body text */
+    line-height: 1.5; /* Increase line height for readability */
+  }
+  
+  .card-content .MuiTypography-body2:last-of-type {
+    margin-bottom: 0; /* Remove bottom margin for the last element */
+  }
+  
+  /* Responsive Design Adjustments */
+  @media (max-width: 600px) {
+    .course-list {
+      padding: 0.5rem; /* Reduced padding on smaller screens */
+    }
+  
+    .card-item {
+      margin-bottom: 1rem; /* Reduced spacing between cards */
+    }
+  }
+  

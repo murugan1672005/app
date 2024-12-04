@@ -1,0 +1,287 @@
+/* EnrollPage.css */
+
+.enroll-page {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: aliceblue;
+}
+
+.hero-section {
+    width: 100%;
+    background: linear-gradient(135deg, #1976d2 0%, #2196f3 100%);
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 30px 30px;
+    margin-bottom: 50px;
+}
+
+.course-title {
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.syllabus-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 1.6rem;
+}
+
+.video-card {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.video-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.video-iframe {
+    width: 100%;
+    height: 60vh;
+    border: none;
+}
+
+.video-title {
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
+.pagination-controls div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-controls .MuiIconButton-root {
+    background-color: #1976d2;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.pagination-controls .MuiIconButton-root:hover {
+    background-color: #155a9c;
+    transform: scale(1.1);
+}
+
+.pagination-controls .MuiTypography-body1 {
+    font-weight: bold;
+    color: #666;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+.loading-text {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Media Queries for Different Screen Sizes */
+
+/* Small Devices (up to 480px) */
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 30px 10px;
+    }
+    
+    .course-title {
+        font-size: 2rem;
+    }
+    
+    .syllabus-title {
+        font-size: 1rem;
+    }
+    
+    .video-card {
+        margin: 10px;
+    }
+    
+    .video-iframe {
+        height: 30vh;
+    }
+    
+    .pagination-controls {
+        flex-direction: column;
+    }
+    
+    .pagination-controls .MuiIconButton-root {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .pagination-controls .MuiTypography-body1 {
+        font-size: 0.8rem;
+        margin: 5px 0;
+    }
+}
+
+/* Tablets (up to 768px) */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 10px;
+    }
+    
+    .course-title {
+        font-size: 2.5rem;
+    }
+    
+    .syllabus-title {
+        font-size: 1.2rem;
+    }
+    
+    .video-card {
+        margin: 15px;
+    }
+    
+    .video-iframe {
+        height: 40vh;
+    }
+    
+    .pagination-controls {
+        flex-direction: column;
+    }
+    
+    .pagination-controls .MuiIconButton-root {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .pagination-controls .MuiTypography-body1 {
+        font-size: 0.9rem;
+        margin: 10px 0;
+    }
+}
+
+/* Laptops (up to 1200px) */
+@media (max-width: 1200px) {
+    .hero-section {
+        padding: 60px 20px;
+    }
+    
+    .course-title {
+        font-size: 2.8rem;
+    }
+    
+    .syllabus-title {
+        font-size: 1.4rem;
+    }
+    
+    .video-card {
+        margin: 20px auto;
+    }
+    
+    .video-iframe {
+        height: 50vh;
+    }
+    
+    .pagination-controls .MuiIconButton-root {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .pagination-controls .MuiTypography-body1 {
+        font-size: 1rem;
+    }
+}
+
+/* Full HD (1920px and above) */
+@media (min-width: 1920px) {
+    .hero-section {
+        padding: 80px 40px;
+    }
+    
+    .course-title {
+        font-size: 3rem;
+    }
+    
+    .syllabus-title {
+        font-size: 1.5rem;
+    }
+    
+    .video-card {
+        margin: 25px auto;
+    }
+    
+    .video-iframe {
+        height: 55vh;
+    }
+    
+    .pagination-controls .MuiIconButton-root {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .pagination-controls .MuiTypography-body1 {
+        font-size: 1rem;
+    }
+}
+
+/* 4K Screens (2560px and above) */
+@media (min-width: 2560px) {
+    .hero-section {
+        padding: 100px 60px;
+    }
+    
+    .course-title {
+        font-size: 3.5rem;
+    }
+    
+    .syllabus-title {
+        font-size: 1.8rem;
+    }
+    
+    .video-card {
+        margin: 30px auto;
+    }
+    
+    .video-iframe {
+        height: 60vh;
+    }
+    
+    .pagination-controls .MuiIconButton-root {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .pagination-controls .MuiTypography-body1 {
+        font-size: 1.1rem;
+    }
+}
